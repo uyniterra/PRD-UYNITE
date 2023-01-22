@@ -10,7 +10,7 @@ EXPOSE 8087
 
 RUN mkdir target
 ADD uynite-authenticate-0.0.7-SNAPSHOT.jar target/uynite-authenticate-0.0.7-SNAPSHOT.jar
-ADD UnitityUnitityPost-0.0.3-SNAPSHOT.jar target/UnitityPost-0.0.3-SNAPSHOT.jar
+ADD UnitityPost-0.0.3-SNAPSHOT.jar target/UnitityPost-0.0.3-SNAPSHOT.jar
 ADD UnitityFriend-0.0.1-SNAPSHOT.jar target/UnitityFriend-0.0.1-SNAPSHOT.jar
 ADD UnitityLogin-0.0.1-SNAPSHOT.jar target/UnitityLogin-0.0.1-SNAPSHOT.jar
 ADD UnitityProfile-0.0.1-SNAPSHOT.jar target/UnitityProfile-0.0.1-SNAPSHOT.jar
